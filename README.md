@@ -1,5 +1,5 @@
 # DrugMatrix FAIR Update
----
+
 This repository hosts the **public landing page and documentation** for the  
 **DrugMatrix FAIR-curated in-vitro data release** prepared for integration with the [ChEMBL database](https://www.ebi.ac.uk/chembl/).
 
