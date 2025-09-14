@@ -1,0 +1,40 @@
+cat > index.html <<'HTML'
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DrugMatrix FAIR Update</title>
+  <meta name="description" content="Public landing page and dataset links for the DrugMatrix FAIR Update project." />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+           max-width: 880px; margin: 3rem auto; padding: 0 1rem; line-height: 1.6; }
+    h1 { font-size: 2rem; margin-bottom: 1rem; }
+    h2 { margin-top: 2rem; }
+    a { color: #0ea5e9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 1.2rem; }
+    footer { margin-top: 2rem; font-size: 0.9rem; color: #475569; }
+  </style>
+</head>
+<body>
+  <h1>DrugMatrix FAIR Update</h1>
+  <p>This site hosts the public landing page for the DrugMatrix FAIR Update project.</p>
+
+  <h2>Resources</h2>
+  <ul>
+    <li><a href="https://github.com/DrugMatrix-FAIR-Update">Organization on GitHub</a></li>
+    <li><a href="https://github.com/DrugMatrix-FAIR-Update/DrugMatrix-FAIR-Update.github.io">This site’s repository</a></li>
+  </ul>
+
+  <h2>Data Access</h2>
+  <p>Small helper files will be hosted here (in <code>/data</code>). Large releases will be archived on Zenodo with DOIs and linked from this page.</p>
+
+  <footer>
+    © <span id="year"></span> DrugMatrix-FAIR-Update • Built with GitHub Pages
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
+HTML
+
