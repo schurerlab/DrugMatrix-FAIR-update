@@ -1,0 +1,13 @@
+Assay Description,DM_Test_ID,Panel
+"[3H] muscimol binding in rat brain membranes (Tris-HCl, pH 7.4)",DM001,Neuro
+Thromboxane A2 synthase inhibition (human platelet enzyme),DM002,Eicosanoid
+CYP2A6 activity assay with 3-cyano-7-ethoxycoumarin substrate,DM003,CYP
+Some unmatched assay that won't map,DM004,Misc
+[35S] GTPγS binding at rat MOR expressed in C6 cells,DM005,GPCR
+Na+/K+-ATPase enzyme inhibition assay (substrate: ATP),DM006,Enzyme
+Another unrelated assay (no match),DM007,Misc
+cAMP Biotrak EIA kit in SH-SY5Y cells (forskolin stimulated),DM008,GPCR/cAMP
+Mibolerone binding to androgen receptor (no match),DM009,NR
+Thromboxane A2 synthase inhibition — human platelet enzyme,DM010,Eicosanoid
+"   [3H] muscimol   binding in rat brain membranes   (Tris-HCl, pH 7.4)   ",DM011,Neuro
+Na+/K+–ATPase enzyme inhibition assay (substrate: ATP),DM012,Enzyme
