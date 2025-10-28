@@ -39,3 +39,26 @@ The DrugMatrix FAIR Update project provides curated in-vitro assay data with ric
 
 🔗 **Live site:** [https://schurerlab.github.io/DrugMatrix-FAIR-update/](https://schurerlab.github.io/DrugMatrix-FAIR-update/)
 
+---
+
+## 🧠 Code and Demo Data
+The /code directory contains Python scripts, an executable demo, and small example datasets illustrating the curation and alignment workflow used for the DrugMatrix FAIR Update project.
+These examples reproduce the text-matching and file-alignment logic applied during data integration between ChEMBL and DrugMatrix.
+
+📁 Explore here: /code
+
+To run the demo locally:
+
+cd code
+conda env create -f environment.yml
+conda activate drugmatrix_fair_demo
+python scripts/demo_fuzzy_match.py \
+  --file1 demo_data/demo_file1_curated.csv \
+  --file2 demo_data/demo_file2_drugmatrix.csv \
+  --outprefix demo_data/demo
+
+Outputs:
+
+demo_data/demo_Merged_File1_by_File2_FuzzyMatched.csv
+
+demo_data/demo_Matched_Assay_Scores.csv
